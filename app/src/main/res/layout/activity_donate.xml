@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout__Vertical_MatchParent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.7"
+    android:background="@android:color/transparent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        style="@style/ImageButton__MatchParent"
+        android:layout_weight="0.5"
+        android:src="@drawable/mirror_towers" />
+
+    <TextView
+        style="@style/TextView__Content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="left|center"
+        android:lines="2"
+        android:singleLine="false"
+        android:text="Every improve need every donation also, please support via Paypal if you can!"
+        android:textSize="11sp" />
+
+    <TextView
+        style="@style/TextView__Content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="left|center"
+        android:text="Step 1 - Log in Paypal account" />
+
+    <TextView
+        style="@style/TextView__Content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="left|center"
+        android:text="Step 2 - Choose Send Payment tab" />
+
+    <TextView
+        style="@style/TextView__Content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="left|center"
+        android:lines="2"
+        android:singleLine="false"
+        android:text="Step 3 - Fill in 'huytower1990@gmail.com' email" />
+
+    <TextView
+        style="@style/TextView__Content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="left|center"
+        android:text="Step 4 - Continue and press Send Payment" />
+
+    <TextView
+        style="@style/TextView__Content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:gravity="left|center"
+        android:text="Step 5 - Thank you for your help" />
+
+    <Button
+        android:id="@+id/btn_donate_via_paypal"
+        style="@style/Button_"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1.2"
+        android:background="@drawable/selector_blue"
+        android:text="Donate via Paypal (Support $1)"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+</LinearLayout>
