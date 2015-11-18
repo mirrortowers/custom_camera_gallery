@@ -28,6 +28,8 @@ Android 2.3.3 and above supported
 
 [Sample Application](https://play.google.com/store/apps/details?id=mirrortowers.beautiful_bag.android.custom_camera.custom_gallery&hl=en "Google Play Store")
 
+[Library](https://github.com/mirrortowers/custom_camera_gallery_library/)
+
 #Documentation
 Sync the library was put at jCenter (Bintray) so need put in build.gradle file in Project this line first 
 
